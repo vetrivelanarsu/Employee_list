@@ -8,6 +8,7 @@
     margin-bottom: 18px;
    /* height: 70px; */
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   border: 1px solid seagreen;
    border-radius: 15px;
 }
 .employee-div:hover{
