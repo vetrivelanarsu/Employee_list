@@ -59,10 +59,13 @@ const Home = () => {
         />
       </div>
 
+      {filteredEmployees.length > 0 ? (
       <div className="employees-list">
         <EmployeeList employees={filteredEmployees} />
       </div>
-
+    ) : (
+      <p className="not-found">Not Found</p>
+    )}
     
     </div>
   );
