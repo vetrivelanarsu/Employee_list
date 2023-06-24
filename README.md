@@ -1,70 +1,23 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech Stack used: React, CSS.
+Functionality: Serach, Route for single page application.
+npm packages: npx create react-app, npm i react-router-dom
+![Screenshot (1190)](https://github.com/vetrivelanarsu/Employee_list/assets/115474291/82f3e6cd-ec3b-4d99-add0-f16dfa08544e)
 
-## Available Scripts
+Employee List is a simple React app. The Main operation involves fetching data from a particular API and populating it in the structure.
+Here, to enhance visual and interactive purposes I have added a List view of employees.
 
-In the project directory, you can run:
+![Screenshot (1191)](https://github.com/vetrivelanarsu/Employee_list/assets/115474291/cab17497-69e9-44e7-a32b-0900c3129bc0)
 
-### `npm start`
+To increase the visual the expanding search bar helps. In the search bar, the first name of the employee needed to be entered to begin the search function. The result of employee will be displayed if no employee match then it renders 'Not Found'. Here Filter HOF used to filter the array of object to matcg the search first_name. Also includes() has used to determine the particular key in the Object of an Array and it returns true if it is satisfies and returrn false if first_name is not found.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot (1192)](https://github.com/vetrivelanarsu/Employee_list/assets/115474291/48dd3a40-f9f0-4016-aa33-ac82a9a72960)
 
-### `npm test`
+By clicking on the particular list element, it route to singleuserpage where employee's avatar, name, email have been rendered.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (1193)](https://github.com/vetrivelanarsu/Employee_list/assets/115474291/aef56b45-da96-40dc-afdc-ad0e478dedda)
 
-### `npm run build`
+react-router-dom installed to access the Link, Routers, Route, Browserroute, useSearchParams to perform Router operation to display  information about particular employee.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
