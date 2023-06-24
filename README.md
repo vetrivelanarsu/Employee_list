@@ -20,4 +20,5 @@ By clicking on the particular list element, it route to singleuserpage where emp
 
 react-router-dom installed to access the Link, Routers, Route, Browserroute, useSearchParams to perform Router operation to display  information about particular employee.
 
+Vercel Deployment link: https://employee-list-app-sigma.vercel.app/
 
