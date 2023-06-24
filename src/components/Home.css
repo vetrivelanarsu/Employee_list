@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    padding-top: 50px;
+  }
+ body{
+    background-color: #e0c5bb;
+ } 
+  
+  h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+  }
+  
+  .inputfield{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-bottom: 60px;
+  }
+  
+  
+  .search-hover {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    transition: all 0.5s;
+  
+  }
+  .search-hover:hover {
+    width: 400px;
+    padding-left: 20px;
+    background-color: #c8b5b5;
+   
+  }
+  
+  

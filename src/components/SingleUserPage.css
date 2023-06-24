@@ -1,0 +1,35 @@
+
+
+
+.border{
+    width:50%;
+    border: 1px solid red;
+    height: 300px;
+    background-color: rgb(240, 212, 159);
+    border-radius: 15px;
+   margin: auto;
+   margin-top: 50px;
+}
+
+.image-avatar{
+   /* border: 1px solid red; */
+   height: 150px;
+   display: flex;
+   margin: auto;
+   width:150px;
+   border-radius: 50%;
+}
+
+.img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    float: inline-end;
+    color: rgb(239, 134, 174);
+    cursor:pointer;
+}
